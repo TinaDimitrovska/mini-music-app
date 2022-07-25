@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+.point {
+  cursor: pointer;
+}
+
+.bg-blue {
+  border-bottom: 10px solid aqua;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.title {
+  color: white;
+  font-weight: bold;
+  font-size: 55px;
+  margin-top: 98px;
+}
+.artist {
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+}
+.bg-gray {
+  background-color: rgb(196, 196, 196);
+}
+.title1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  padding: 30px 0px 5px;
+}
+.textColor {
+  background-color: rgb(58, 121, 163);
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+}
+.artistPhoto {
+  position: relative;
+}
+.imgDetail {
+  padding: 20px;
+}
+.artistName {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.para {
+  font-size: 18px;
+  padding-top: 15px;
+}
+.albums {
+  display: inline;
+}
+@media (max-width: 426px) {
+  .title {
+    font-size: 40px;
+    margin-top: 80px;
+  }
+}
